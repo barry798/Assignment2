@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Portfolio Website">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <title>Professional Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Professional Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About My page</h2>
+        <p>This is a game I designed and this website will introduce my game.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <article>
+            <h3>Image Gallery</h3>
+            <div class="gallery">
+                <a target="_blank" href="intro.jpg">
+                    <img src="intro.jpg" alt="intro">
+                </a>
+                <div class="desc">Game Name & Designer</div>
+            </div>
+            <div class="gallery">
+                <a target="_blank" href="story.jpg">
+                    <img src="story.jpg" alt="story">
+                </a>
+                <div class="desc">Game Story</div>
+            </div>
+            <div class="gallery">
+                <a target="_blank" href="scene.jpg">
+                    <img src="scene.jpg" alt="scene">
+                </a>
+                <div class="desc">Scene In-Game</div>
+            </div>
+        </article>
+
+        <article>
+            <h3>Testimonials</h3>
+            <div class="container">
+                <img src="Huang.jpg" alt="Game">
+                <p><span>Huang.</span> From the Game Design Team</p>
+                <p>The story of the game is very compelling, and the gameplay is very interesting.</p>
+            </div>
+
+            <div class="container">
+                <img src="barry.jpg" alt="Game">
+                <p><span>Barry.</span> Leader of Game Design Team .</p>
+                <p>I loved the final inversion so much, it got my blood pumping.</p>
+            </div>
+        </article>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 My Portfolio. Out of Sight</p>
+    </footer>
+</body>
+</html>
